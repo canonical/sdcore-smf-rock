@@ -1,0 +1,19 @@
+name: sdcore-smf
+base: ubuntu:22.04
+version: '1.3'
+summary: SD-Core SMF
+description: SD-Core SMF
+license: Apache-2.0
+platforms:
+  amd64:
+
+parts:
+  smf:
+    plugin: go
+    source: https://github.com/omec-project/smf.git
+    source-type: git
+    source-commit: 3fa04ea13dc4c8207a2d93b6fb4b34d562748f46
+    build-snaps:
+      - go/1.18/stable
+    organize:
+      bin/cmd: bin/smf
