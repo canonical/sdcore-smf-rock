@@ -1,6 +1,6 @@
 name: sdcore-smf
 base: bare
-build-base: ubuntu:22.04
+build-base: ubuntu@22.04
 version: '1.3'
 summary: SD-Core SMF
 description: SD-Core SMF
