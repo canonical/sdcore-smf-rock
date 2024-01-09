@@ -14,7 +14,7 @@ parts:
     plugin: go
     source: https://github.com/omec-project/smf.git
     source-type: git
-    source-commit: f82516dede372ff95f4d0231f69e0581ba8f04cf
+    source-commit: 41f791905957aec31d17fbc7c1361eff30343b56
     build-snaps:
       - go/1.21/stable
     stage-packages:
