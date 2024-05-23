@@ -1,4 +1,4 @@
-# SD-Core SMF ROCK
+# SD-Core SMF rock
 
 Container image for SD-Core SMF.
 
