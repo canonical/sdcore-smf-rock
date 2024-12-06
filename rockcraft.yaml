@@ -1,7 +1,7 @@
 name: sdcore-smf
 base: bare
 build-base: ubuntu@24.04
-version: '1.6.2'
+version: '2.0.0'
 summary: SD-Core SMF
 description: SD-Core SMF
 license: Apache-2.0
